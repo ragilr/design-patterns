@@ -1,0 +1,40 @@
+# IntelliJ project files
+.idea/
+
+# Compiled output
+out/
+target/
+
+# Dependency directories
+.lib/
+libs/
+
+# Gradle-specific files
+.gradle/
+build/
+
+# Maven-specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+log/
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
