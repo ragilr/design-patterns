@@ -1,12 +1,14 @@
-public class Main implements Runnable{
+import com.rgl.singleton.Singleton;
+
+public class Main implements Runnable {
 
     @Override
     public void run() {
 
         Singleton s = Singleton.getInstance();
         long threadId = Thread.currentThread().getId();
-        System.out.println("Thread "+threadId+" Singleton"+s);
-        System.out.println("Thread "+threadId+" "+s.singletonClassMethod());
+        System.out.println("Thread " + threadId + " com.rgl.singleton.Singleton " + s);
+        System.out.println("Thread " + threadId + " " + s.singletonClassMethod());
     }
 
     public static void main(String[] args) {
