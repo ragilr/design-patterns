@@ -1,5 +1,5 @@
-package com.rgl.vehicle;
-import com.rgl.vehicle.constants.VehicleType;
+package com.rgl.factory;
+import com.rgl.factory.constants.VehicleType;
 public class VehicleFactory {
     public static Vehicle getVehicle(VehicleType type) {
         Vehicle vehicle;

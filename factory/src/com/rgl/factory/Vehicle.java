@@ -1,4 +1,4 @@
-package com.rgl.vehicle;
+package com.rgl.factory;
 
 public interface Vehicle {
     void accelerate();

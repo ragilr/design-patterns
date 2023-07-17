@@ -1,5 +1,5 @@
-import com.rgl.vehicle.*;
-import com.rgl.vehicle.constants.VehicleType;
+import com.rgl.factory.*;
+import com.rgl.factory.constants.VehicleType;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.rgl.vehicle;
+package com.rgl.factory;
 
 public class Bike implements Vehicle{
     @Override
